@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(210, 250, 248);
+}
+/* Menu Hamburguesa */
+header {
+    background: rgb(44, 91, 221);
+    text-align: center;
+    color: white;
+    height: 4em;
+    line-height: 4em;
+}
+
+header {
+    text-align: center;
+    color: white;
+    height: 4em;
+    line-height: 4em;
+    background-image: url(/img/nadador.png);
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position: 99.8%;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#menu > a {
+    list-style: none;
+    text-indent: -100px;
+    overflow: hidden;
+    margin-top: .75em;
+    background: url("/img/menu.png") no-repeat center center;
+    background-size: cover;
+    height: 2.5em;
+    width: 2.5em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+
+#cerrar {
+    display: none;
+}
+
+#abrir:focus ~ #barra {
+    left: 0;
+}
+
+#abrir:focus ~ #cerrar {
+    display: block;
+}
+
+#barra {
+    width: 100%;
+    height: calc(100vh - 4em);
+    position: absolute;
+    top: 4em;
+    left: -100%;
+    background: rgb(156, 228, 238);
+    transition: left .5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+#barra li {
+    list-style: none;
+    margin: 1em;
+    width: 80%;
+}
+
+#barra li a {
+    text-decoration: none;
+    display: block;
+    background: rgb(226, 245, 245);
+    color: black;
+    text-align: center;
+    line-height: 2em;
+}
+
+/*Primera informacion*/
+#inicio h1 {
+    text-align: center;
+    font-size: 4em;
+    margin-top: 20px;
+}
+#inicio img{
+    width: 100vw;
+}
+#inicio p {
+    text-align: center;
+    font-size: 1.2em;
+}
+span {
+    display: none;
+}
+/*Que es?*/
+#queEs {
+    background: rgb(156, 228, 238);
+    padding: 8vw;
+    margin: 5vw;
+    text-align: center;
+}
+#queEs h2 {
+    font-size: 2em;
+}
+#queEs p {
+    margin-top: 5vw;
+    font-size: 1.2em;
+}
+
+#queEs p span  {
+    display: none;
+}
+
+#queEs img {
+    width: 15vw;
+    margin-top: 5vw;
+}
+
+/*Beneficios*/
+#beneficios h2 {
+    font-size: 2em;
+    padding: 2vw;
+    text-align: center;
+    background: rgb(74, 198, 218);
+}
+
+.uno {
+    background: rgb(156, 228, 238);
+    text-align: center;
+}
+.uno h3 {
+    font-size: 1.5em;
+    padding: 4vw;
+}
+.uno p {
+    font-size: 1.2em;
+    margin: 3vw;
+}
+.uno img {
+    width: 40%;
+    margin-bottom: 4vw;
+}
+
+.dos {
+    background: rgb(66, 181, 199);
+    text-align: center;
+    color: rgb(226, 245, 248);
+}
+.dos h3 {
+    font-size: 1.5em;
+    padding: 4vw;
+}
+.dos p {
+    font-size: 1.2em;
+    margin: 3vw;
+}
+.dos img {
+    width: 40%;
+    margin-bottom: 4vw;
+}
+
+/*Actividades*/
+#actividades h2{
+    font-size: 2em;
+    padding: 2vw;
+    text-align: center;
+    margin: 5vw;
+
+    padding: 2vw;
+    background: rgb(156, 228, 238);
+    border-radius: 2vw;
+}
+
+.recomendaciones1 {
+    background: rgb(156, 228, 238);
+    padding: 4vw;
+    margin: 5vw;
+    text-align: center;
+}
+.recomendaciones1 h3 {
+    font-size: 1.6em;
+    margin-top: 3vw;
+}
+.recomendaciones1 p {
+    margin-top: 2vw;
+    font-size: 1.1em;
+}
+.recomendaciones2 {
+    background: rgb(66, 181, 199);
+    padding: 4vw;
+    margin: 5vw;
+    color: rgb(226, 245, 248);
+    text-align: center;
+}
+.recomendaciones2 h3 {
+    font-size: 1.6em;
+    margin-top: 3vw;
+}
+.recomendaciones2 p {
+    margin-top: 2vw;
+    font-size: 1.1em;
+}
+
+.recomendacion3{
+    display: flex;
+    justify-content: center;
+    margin: 3vw;
+}
+
+/*Contacto*/
+#contacto {
+    margin-bottom: 6vw;
+}
+#contacto h2 {
+    font-size: 2em;
+    padding: 2vw;
+    text-align: center;
+    background: rgb(74, 198, 218);
+}
+.form-contacto {
+    display: flex;
+    justify-content: center;
+    margin-left: 5vw;
+}
+
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: initial;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+/*Footer*/
+
+footer {
+    background: rgb(44, 91, 221);
+    text-align: center;
+    color: white;
+    padding-top: 2vw;
+}
+
+footer p {
+    font-size: 1.2em;
+    margin-top: 3vw;
+}
+
+footer img {
+    width: 20%;
+    padding: 4vw;
+}
