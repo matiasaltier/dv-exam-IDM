@@ -24,19 +24,19 @@ header {
     text-align: center;
     background-image: url(/img/nadador.png);
     background-repeat: no-repeat;
-
     background-position: 2%;
 }
 
 header nav li {
     display: inline;
-    font-size: 2em;
+    font-size: 2vw;
 }
 
 header nav li a {
     text-decoration: none;
     color: white;
-    margin-right: 2em;
+    font-size: 2vw;
+    margin-right: 2vw;
 }
 
 a:hover {
@@ -110,7 +110,7 @@ a:hover {
 }
 .dos h3 {
     font-size: 1.5em;
-    padding: 4vw;
+    padding-top: 3vw;
 }
 .dos p {
     font-size: 1.2em;
@@ -231,6 +231,6 @@ footer p {
 }
 
 footer img {
-    width: 20%;
-    padding: 4vw;
+    width: 15%;
+    padding: 2vw;
 }
