@@ -23,8 +23,8 @@ header {
     line-height: 4em;
     background-image: url(/img/nadador.png);
     background-repeat: no-repeat;
-    background-size: 18%;
-    background-position: 99.8%;
+    background-size: 10%;
+    background-position: 94.8%;
 }
 
 nav {
@@ -92,7 +92,7 @@ nav {
 /*Primera informacion*/
 #inicio h1 {
     text-align: center;
-    font-size: 4em;
+    font-size: 15vw;
     margin-top: 20px;
 }
 #inicio img{
@@ -217,8 +217,14 @@ span {
 .recomendacion3{
     display: flex;
     justify-content: center;
-    margin: 3vw;
+    margin-left: 10vw;
+    max-width: 100%;
+    width: 80vw;
+    height: calc(80vw*900/470);
+    max-width: 900px;
+    max-height: 470px;
 }
+
 
 /*Contacto*/
 #contacto {
