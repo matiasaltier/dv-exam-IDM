@@ -21,7 +21,7 @@ header {
     color: white;
     height: 4em;
     line-height: 4em;
-    background-image: url(/img/nadador.png);
+    background-image: url(../img/nadador.png);
     background-repeat: no-repeat;
     background-size: 10%;
     background-position: 94.8%;
@@ -39,7 +39,7 @@ nav {
     text-indent: -100px;
     overflow: hidden;
     margin-top: .75em;
-    background: url("/img/menu.png") no-repeat center center;
+    background: url(../img/menu.png) no-repeat center center;
     background-size: cover;
     height: 2.5em;
     width: 2.5em;
